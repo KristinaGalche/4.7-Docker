@@ -7,7 +7,5 @@ services:
       POSTGRES_DB: app
       POSTGRES_USER: app
       POSTGRES_PASSWORD: 9mREsvXDs9Gk89Ef
-    volumes:
-      - ./data:/var/lib/postgresql/data
     ports:
       - '5432:5432'
